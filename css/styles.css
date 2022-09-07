@@ -1,0 +1,178 @@
+/* Загальні */
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color:#2196F3;
+    --primary-white-color: #ffffff;
+    --background-color-dark:#2F303A;
+    --background-color-light: #F5F4FA;
+    --active-button-color: #188CE8;
+    --nav-address-color: rgba(255, 255, 255, 0.6);
+}
+body{
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+body li{
+    list-style: none;
+}
+/* хедер */
+.logo{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--accent-color);
+}
+.logo-header {
+    color: black;
+}
+.nav-li,.auth-nav,.auth-nav-footer,.address{
+      text-decoration: none;
+      color: var(--title-text-color);
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+      font-style: normal;
+  }
+  .auth-nav{
+    color: var(--primary-text-color);
+  }
+
+.nav-li:hover,
+.auth-nav:hover,
+.auth-nav-footer:hover,
+.nav-li:focus,
+.auth-nav-footer:focus,
+.auth-nav:focus,
+.address:hover,
+.address:focus,
+.current{
+    color: var(--accent-color);
+}
+/* мейн */
+.main-title{
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.visually-hidden { 
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    margin: -1px; 
+    border: 0; 
+    padding: 0; 
+    white-space: nowrap; 
+    clip-path: inset(100%); 
+    clip: rect(0 0 0 0); 
+    overflow: hidden; 
+  }
+.hero-section{
+    background-color: var(--background-color-dark);
+}
+.button{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    width: 216px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    font-family: inherit;
+}
+.button:hover{
+    background-color: var(--active-button-color);
+}
+.benefits-title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.team-seaction{
+    background-color: var(--background-color-light)
+}
+.title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+.mates-name{
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+.mates-position{
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+/* футер */
+.page-footer{
+    background-color: var(--background-color-dark);
+}
+.address{
+    color: var(--primary-white-color);
+    font-style: normal;
+    letter-spacing: inherit;
+}
+.logo-footer{
+    color: var(--primary-white-color);
+}
+.auth-nav-footer{
+    color: var(--nav-address-color);
+    letter-spacing: inherit;
+    }
+
+/* portfolio */
+.button-portf{
+    color: var(--title-text-color);
+    background: var(--background-color-light);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-family: inherit;
+}
+
+
+.button-portf:hover,
+.button-portf:focus{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+.projects-title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.projects-type{
+font-size: 16px;
+line-height: 1.88;
+}
